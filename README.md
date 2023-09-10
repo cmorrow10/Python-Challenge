@@ -11,6 +11,7 @@
 ##### - The greatest decrease in profits (date and amount) over the entire period.
 ---
 #### Pypoll
+![polling-station](https://github.com/kmorrow439/python_challenge/assets/114371722/3626f0ef-1700-4b96-aea9-7f23c507baff)
 ##### The objected is to assist a small rural town in upgrading its vote-counting procedure. The "election_data.csv" dataset comprises three columns: "Voter ID," "County," and "Candidate." 
 ##### The Python script is developed to evaluate the votes and compute the following statistics:
 ##### - The total number of votes cast.
