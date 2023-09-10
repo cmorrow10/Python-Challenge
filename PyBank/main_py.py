@@ -62,11 +62,11 @@ with open(budget_data, newline="") as csvfile:
 
     file.write("------------------------------" + "\n")
 
-    file.write("total months: " + str(total_months) + "\n")
+    file.write("Total Months: " + str(total_months) + "\n")
 
     file.write("Total: " + "$" + str(sum(P)) + "\n")
 
-    file.write("Average change: " + "$" + str(revenue_average) + "\n")
+    file.write("Average Change: " + "$" + str(revenue_average) + "\n")
 
     file.write("Greatest Increase in Profits: " + str(months[revenue_change.index(max(revenue_change))+1]) + " " + "($" + str(greatest_increase) + ")\n")
 
